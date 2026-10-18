@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="./docs/images/game-page.png" width="720" alt="Steam Deck 游戏模式的游戏详情页。">
+  <img src="./docs/images/header.jpg" width="720" alt="Steam Deck 游戏模式的顶栏。">
   <br>
-  <sub>游戏详情页。顶栏胶囊和底部是 Glance；英雄图发糊是 Steam 自己的背景。</sub>
+  <sub>顶栏。胶囊是 Glance；英雄图发糊是 Steam 自己的背景。</sub>
 </p>
 
 ## 改了哪些界面
@@ -29,9 +29,19 @@
 | 弹窗、设置灰底行、游戏录制卡、确认框 | `dialog.css` | 大屏 |
 
 <p align="center">
-  <img src="./docs/images/steam-menu.png" width="240" alt="套用 Glance 玻璃的 Steam 键菜单。">
+  <img src="./docs/images/steam-menu.jpg" width="720" alt="盖在游戏页上的 Steam 键菜单。">
   <br>
   <sub>Steam 键菜单。</sub>
+</p>
+<p align="center">
+  <img src="./docs/images/qam.jpg" width="720" alt="盖在游戏页上的快速访问菜单。">
+  <br>
+  <sub>快速访问菜单。</sub>
+</p>
+<p align="center">
+  <img src="./docs/images/game-menu.jpg" width="720" alt="盖在游戏页上的游戏设置菜单。">
+  <br>
+  <sub>游戏设置菜单。</sub>
 </p>
 
 

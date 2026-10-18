@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="./docs/images/game-page.png" width="720" alt="Game page on Steam Deck Game Mode.">
+  <img src="./docs/images/header.jpg" width="720" alt="Game page header on Steam Deck Game Mode.">
   <br>
-  <sub>Game page. The header capsule and footer are Glance; the hero art blur is Steam's own background.</sub>
+  <sub>Header. The capsule is Glance; the hero art blur is Steam's own background.</sub>
 </p>
 
 ## What it changes
@@ -29,9 +29,19 @@
 | Dialogs, settings rows, recording cards, confirm prompts | `dialog.css` | SP |
 
 <p align="center">
-  <img src="./docs/images/steam-menu.png" width="240" alt="Steam button menu with the Glance glass panel.">
+  <img src="./docs/images/steam-menu.jpg" width="720" alt="Steam button menu over the game page.">
   <br>
   <sub>Steam button menu.</sub>
+</p>
+<p align="center">
+  <img src="./docs/images/qam.jpg" width="720" alt="Quick Access Menu over the game page.">
+  <br>
+  <sub>Quick Access Menu.</sub>
+</p>
+<p align="center">
+  <img src="./docs/images/game-menu.jpg" width="720" alt="Game settings menu over the game page.">
+  <br>
+  <sub>Game settings menu.</sub>
 </p>
 
 
