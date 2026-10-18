@@ -1,0 +1,29 @@
+/* Volume OSD. 0.72 hides the picture; 14px blur then smears what is left. */
+.BasicUI [class*="2iUUMqGB"][class*="JmkgjGawC2D5V"]:has(.SliderTrack) {
+  background-color: rgba(var(--glance-glass_r, 14), var(--glance-glass_g, 20), var(--glance-glass_b, 27), var(--glance-volume-opacity, 0.4)) !important;
+  background-image: none !important;
+  -webkit-backdrop-filter: blur(var(--glance-volume-blur, 6px)) !important;
+  backdrop-filter: blur(var(--glance-volume-blur, 6px)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 999px !important;
+  clip-path: inset(0 round 999px) !important;
+  -webkit-clip-path: inset(0 round 999px) !important;
+  overflow: hidden !important;
+  box-shadow: none !important;
+  will-change: auto !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.BasicUI [class*="2iUUMqGB"][class*="JmkgjGawC2D5V"]:has(.SliderTrack) svg {
+  color: rgb(255, 255, 255) !important;
+}
+
+.BasicUI [class*="2iUUMqGB"][class*="JmkgjGawC2D5V"]:has(.SliderTrack) .SliderTrack {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  border-radius: 999px !important;
+}
+
+.BasicUI [class*="2iUUMqGB"][class*="JmkgjGawC2D5V"]:has(.SliderTrack) .SliderTrack::before {
+  background-color: rgb(26, 159, 255) !important;
+  border-radius: 999px !important;
+}

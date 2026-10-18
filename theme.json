@@ -1,0 +1,354 @@
+{
+  "name": "Glance",
+  "author": "local",
+  "version": "v1.0",
+  "manifest_version": 8,
+  "target": "Other",
+  "description": "Glance visual language for Steam Game Mode surfaces.",
+  "inject": {
+    "shared.css": [
+      "MainMenu"
+    ],
+    "context-menu.css": [
+      "SP"
+    ],
+    "qam.css": [
+      "QuickAccess"
+    ],
+    "library.css": [
+      "SP"
+    ],
+    "home.css": [
+      "SP"
+    ],
+    "volume.css": [
+      "SP"
+    ],
+    "dialog.css": [
+      "SP"
+    ]
+  },
+  "patches": {
+    "面板不透明度": {
+      "type": "slider",
+      "default": "72%",
+      "values": {
+        "40%": {
+          "--glance-panel-opacity": [
+            "0.4",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "55%": {
+          "--glance-panel-opacity": [
+            "0.55",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "72%": {
+          "--glance-panel-opacity": [
+            "0.72",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "85%": {
+          "--glance-panel-opacity": [
+            "0.85",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "100%": {
+          "--glance-panel-opacity": [
+            "1",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      },
+      "components": []
+    },
+    "面板模糊": {
+      "type": "slider",
+      "default": "14px",
+      "values": {
+        "关": {
+          "--glance-panel-blur": [
+            "0px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "6px": {
+          "--glance-panel-blur": [
+            "6px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "8px": {
+          "--glance-panel-blur": [
+            "8px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "14px": {
+          "--glance-panel-blur": [
+            "14px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "20px": {
+          "--glance-panel-blur": [
+            "20px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      },
+      "components": []
+    },
+    "面板圆角": {
+      "type": "slider",
+      "default": "16px",
+      "values": {
+        "8px": {
+          "--glance-panel-radius": [
+            "8px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "12px": {
+          "--glance-panel-radius": [
+            "12px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "16px": {
+          "--glance-panel-radius": [
+            "16px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "24px": {
+          "--glance-panel-radius": [
+            "24px",
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      },
+      "components": []
+    },
+    "玻璃底色": {
+      "type": "none",
+      "default": "当前",
+      "values": {
+        "当前": {}
+      },
+      "components": [
+        {
+          "name": "颜色",
+          "type": "color-picker",
+          "default": "#0E141B",
+          "on": "当前",
+          "css_variable": "--glance-glass",
+          "tabs": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      ]
+    },
+    "音量条不透明度": {
+      "type": "slider",
+      "default": "40%",
+      "values": {
+        "20%": {
+          "--glance-volume-opacity": [
+            "0.2",
+            "SP"
+          ]
+        },
+        "30%": {
+          "--glance-volume-opacity": [
+            "0.3",
+            "SP"
+          ]
+        },
+        "40%": {
+          "--glance-volume-opacity": [
+            "0.4",
+            "SP"
+          ]
+        },
+        "55%": {
+          "--glance-volume-opacity": [
+            "0.55",
+            "SP"
+          ]
+        },
+        "72%": {
+          "--glance-volume-opacity": [
+            "0.72",
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    },
+    "音量条模糊": {
+      "type": "slider",
+      "default": "6px",
+      "values": {
+        "关": {
+          "--glance-volume-blur": [
+            "0px",
+            "SP"
+          ]
+        },
+        "4px": {
+          "--glance-volume-blur": [
+            "4px",
+            "SP"
+          ]
+        },
+        "6px": {
+          "--glance-volume-blur": [
+            "6px",
+            "SP"
+          ]
+        },
+        "10px": {
+          "--glance-volume-blur": [
+            "10px",
+            "SP"
+          ]
+        },
+        "14px": {
+          "--glance-volume-blur": [
+            "14px",
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    },
+    "顶栏不透明度": {
+      "type": "slider",
+      "default": "38%",
+      "values": {
+        "20%": {
+          "--glance-header-opacity": [
+            "0.2",
+            "SP"
+          ]
+        },
+        "38%": {
+          "--glance-header-opacity": [
+            "0.38",
+            "SP"
+          ]
+        },
+        "55%": {
+          "--glance-header-opacity": [
+            "0.55",
+            "SP"
+          ]
+        },
+        "72%": {
+          "--glance-header-opacity": [
+            "0.72",
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    },
+    "设置蒙层不透明度": {
+      "type": "slider",
+      "default": "50%",
+      "values": {
+        "30%": {
+          "--glance-overlay-opacity": [
+            "0.3",
+            "SP"
+          ]
+        },
+        "50%": {
+          "--glance-overlay-opacity": [
+            "0.5",
+            "SP"
+          ]
+        },
+        "70%": {
+          "--glance-overlay-opacity": [
+            "0.7",
+            "SP"
+          ]
+        },
+        "85%": {
+          "--glance-overlay-opacity": [
+            "0.85",
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    },
+    "设置蒙层模糊": {
+      "type": "slider",
+      "default": "8px",
+      "values": {
+        "关": {
+          "--glance-overlay-blur": [
+            "0px",
+            "SP"
+          ]
+        },
+        "4px": {
+          "--glance-overlay-blur": [
+            "4px",
+            "SP"
+          ]
+        },
+        "8px": {
+          "--glance-overlay-blur": [
+            "8px",
+            "SP"
+          ]
+        },
+        "14px": {
+          "--glance-overlay-blur": [
+            "14px",
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    }
+  }
+}

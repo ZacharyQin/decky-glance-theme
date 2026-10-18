@@ -1,0 +1,57 @@
+#Main .WYgDg9NyCcMIVuMyZ_NBC {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+
+#Main .WYgDg9NyCcMIVuMyZ_NBC img {
+  border-radius: 12px !important;
+}
+
+#Main .WYgDg9NyCcMIVuMyZ_NBC.gpfocus {
+  outline: 1px solid rgba(255, 255, 255, 0.95) !important;
+  outline-offset: 1px !important;
+  background-color: transparent !important;
+  box-shadow: 0 14px 40px -8px rgba(255, 255, 255, 0.28) !important;
+}
+
+#Main ._2hvQbTq62AjXQS4tZqVepi {
+  color: rgb(184, 188, 191) !important;
+  font-weight: 700 !important;
+}
+
+#Main ._3IWn-2rn7x98o5fDd0rAxb {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+#Main ._3IWn-2rn7x98o5fDd0rAxb.gpfocus {
+  outline: none !important;
+}
+
+#Main ._1wPplsegQqCoe06wXPhzKT {
+  border-radius: 12px !important;
+  outline: 1px solid rgba(255, 255, 255, 0.95) !important;
+  outline-offset: 1px !important;
+}
+
+[id$="GreatOnDeck"].gpfocus,
+[id$="AllGames"].gpfocus,
+[id$="Installed"].gpfocus,
+[id$="Collections"].gpfocus,
+[id$="DesktopApps"].gpfocus,
+[id$="Soundtracks"].gpfocus {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 64px !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 255, 255, 0.22) !important;
+}
+
+[id$="GreatOnDeck"].gpfocus *,
+[id$="AllGames"].gpfocus *,
+[id$="Installed"].gpfocus *,
+[id$="Collections"].gpfocus *,
+[id$="DesktopApps"].gpfocus *,
+[id$="Soundtracks"].gpfocus * {
+  color: rgb(255, 255, 255) !important;
+}

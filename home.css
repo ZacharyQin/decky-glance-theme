@@ -1,0 +1,88 @@
+.gh-root .gh-btn.gh-btn-play,
+.gh-root .gh-btn.gh-btn-play .gh-btn-label {
+  color: rgb(255, 255, 255) !important;
+}
+
+.gh-root .gh-btn.gh-btn-play svg,
+.gh-root .gh-btn.gh-btn-play path {
+  color: rgb(255, 255, 255) !important;
+  fill: rgb(255, 255, 255) !important;
+}
+
+._1fHBRg7vFnKszK6EiOdIEY [role="button"],
+._1fHBRg7vFnKszK6EiOdIEY [role="button"] path {
+  color: rgb(255, 255, 255) !important;
+  fill: rgb(255, 255, 255) !important;
+  stroke: rgb(255, 255, 255) !important;
+}
+
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocus,
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 12px !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9) !important;
+}
+
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocus svg,
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin svg,
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocus path,
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin path {
+  color: rgb(255, 255, 255) !important;
+  fill: rgb(255, 255, 255) !important;
+}
+
+._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9) !important;
+}
+
+._2a1-sPpExCp24Q8dfImB0a.gpfocus,
+._17M8gvakqjyaw_cLo6ntdl.gpfocuswithin ._2a1-sPpExCp24Q8dfImB0a,
+._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F ._2a1-sPpExCp24Q8dfImB0a {
+  color: rgb(255, 255, 255) !important;
+  -webkit-text-fill-color: rgb(255, 255, 255) !important;
+  caret-color: rgb(255, 255, 255) !important;
+}
+
+._2a1-sPpExCp24Q8dfImB0a.gpfocus::placeholder,
+._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F ._2a1-sPpExCp24Q8dfImB0a::placeholder {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+._17M8gvakqjyaw_cLo6ntdl.gpfocuswithin svg,
+._17M8gvakqjyaw_cLo6ntdl.gpfocuswithin path,
+._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F svg,
+._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F path {
+  color: rgb(255, 255, 255) !important;
+  fill: rgb(255, 255, 255) !important;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50% !important;
+  background-color: rgb(255, 255, 255) !important;
+  background-image:
+    linear-gradient(45deg, transparent 42%, rgb(0, 0, 0) 46% 54%, transparent 58%),
+    linear-gradient(-45deg, transparent 42%, rgb(0, 0, 0) 46% 54%, transparent 58%) !important;
+  background-size: 70% 70%, 70% 70% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer !important;
+}
+
+._3rsrz7BYWjqGBhzcpn-Auo._2NQoFicPv3MZKwGD6pJj-f {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#header {
+  background-color: rgba(12, 16, 22, var(--glance-header-opacity, 0.38)) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  backdrop-filter: blur(14px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+

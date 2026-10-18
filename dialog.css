@@ -1,0 +1,81 @@
+/* Steam modal dialogs. clip-path keeps the blur inside the radius. */
+.DialogContent._DialogLayout {
+  background-color: rgba(var(--glance-glass_r, 14), var(--glance-glass_g, 20), var(--glance-glass_b, 27), var(--glance-panel-opacity, 0.72)) !important;
+  background-image: none !important;
+  -webkit-backdrop-filter: blur(var(--glance-panel-blur, 14px)) !important;
+  backdrop-filter: blur(var(--glance-panel-blur, 14px)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: var(--glance-panel-radius, 16px) !important;
+  clip-path: inset(0 round var(--glance-panel-radius, 16px)) !important;
+  overflow: visible !important;
+  box-shadow: none !important;
+}
+
+.DialogContent .DialogHeader {
+  font-weight: 700 !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.DialogContent .DialogBody [role="button"] {
+  border-radius: 12px !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+}
+
+.DialogContent .DialogBody [role="button"].gpfocus,
+.DialogContent .DialogBody [role="button"].gpfocuswithin {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: none !important;
+}
+
+.DialogContent .DialogButton {
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+}
+
+.DialogContent .DialogButton.gpfocus,
+.DialogContent .DialogButton.gpfocuswithin {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgb(255, 255, 255) !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: none !important;
+}
+
+/* The square focus ring is a separate node, not the row border. Hide it in this dialog. */
+body:has(._3NtZhwiPYTa9_A6u6hp8en) ._1wPplsegQqCoe06wXPhzKT {
+  outline: none !important;
+  visibility: hidden !important;
+}
+
+/* Settings page scroller. The blanket overflow:visible above cancels Steam's own. */
+.DialogContent._DialogLayout[class*="3mgb-3_d"][class*="Hk3POEOVOh0Dvp"] {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.DialogContent .DialogBody .SliderControlPanelGroup,
+.DialogContent .DialogBody .SliderControlPanelGroup.gpfocus,
+.DialogContent .DialogBody .SliderControlPanelGroup.gpfocuswithin {
+  border-radius: 2px !important;
+  background-color: transparent !important;
+}
+
+.DialogContent._DialogLayout[class*="3mgb-3_d"][class*="Hk3POEOVOh0Dvp"] [class*="eKmEXJCm"][class*="lgme24Fp_HWt"] {
+  border-radius: 12px !important;
+}
+
+.DialogContent._DialogLayout[class*="3mgb-3_d"][class*="Hk3POEOVOh0Dvp"] [class*="7EGqd8bd"][class*="iXJBd2fj5Hh8r"] {
+  border-radius: 12px !important;
+}
+
+.DialogContent.GenericConfirmDialog [class*="eKmEXJCm"][class*="lgme24Fp_HWt"] {
+  border-radius: 12px !important;
+}
+
+

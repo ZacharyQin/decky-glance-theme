@@ -1,0 +1,69 @@
+@keyframes glance-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.BasicUIContextMenu > .Panel {
+  background-color: rgba(var(--glance-glass_r, 14), var(--glance-glass_g, 20), var(--glance-glass_b, 27), var(--glance-panel-opacity, 0.72)) !important;
+  -webkit-backdrop-filter: blur(var(--glance-panel-blur, 14px)) !important;
+  backdrop-filter: blur(var(--glance-panel-blur, 14px)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: var(--glance-panel-radius, 16px) !important;
+  transform-origin: center center !important;
+  animation: glance-menu-in 180ms cubic-bezier(0.2, 0.9, 0.25, 1) both !important;
+}
+
+.BasicUIContextMenu > .Panel > .Panel {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  box-sizing: border-box !important;
+  padding: 8px 0 !important;
+}
+
+.BasicUIContextMenu .contextMenuItem {
+  width: 100% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  color: rgb(184, 188, 191) !important;
+  font-weight: 700 !important;
+  box-shadow: none !important;
+}
+
+.BasicUIContextMenu .contextMenuItem.gpfocus,
+.BasicUIContextMenu .contextMenuItem.gpfocuswithin,
+.BasicUIContextMenu .contextMenuItem._2XVTVAadkIvrBujZYN5jbL,
+.BasicUIContextMenu .contextMenuItem.OQmT6NKuekm5HuXQnkl2a {
+  border-radius: 12px !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgb(255, 255, 255) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 14px 40px -8px rgba(255, 255, 255, 0.28) !important;
+}
+
+.BasicUIContextMenu .contextMenuItem.gpfocus *,
+.BasicUIContextMenu .contextMenuItem.gpfocuswithin *,
+.BasicUIContextMenu .contextMenuItem._2XVTVAadkIvrBujZYN5jbL,
+.BasicUIContextMenu .contextMenuItem.OQmT6NKuekm5HuXQnkl2a * {
+  color: rgb(255, 255, 255) !important;
+  fill: rgb(255, 255, 255) !important;
+}
+
+.BasicUIContextMenu > .Panel > .Panel > div:not(.contextMenuItem) {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+
+.ModalOverlayBackground,
+._34EufgHrrmvt164EDrO1LB .ModalOverlayBackground {
+  background-color: rgba(0, 0, 0, var(--glance-overlay-opacity, 0.5)) !important;
+  -webkit-backdrop-filter: blur(var(--glance-overlay-blur, 8px)) !important;
+  backdrop-filter: blur(var(--glance-overlay-blur, 8px)) !important;
+}

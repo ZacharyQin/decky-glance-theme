@@ -1,0 +1,34 @@
+#QuickAccess-Menu {
+  background-color: rgba(var(--glance-glass_r, 14), var(--glance-glass_g, 20), var(--glance-glass_b, 27), var(--glance-panel-opacity, 0.72)) !important;
+  -webkit-backdrop-filter: blur(var(--glance-panel-blur, 14px)) !important;
+  backdrop-filter: blur(var(--glance-panel-blur, 14px)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: var(--glance-panel-radius, 16px) !important;
+}
+
+#QuickAccess-Menu ._1S76C3gQf4oOTbLdTMVH0m._2QHMua1-KysYKpszTPAW_O:not(.gpfocus) {
+  background-color: transparent !important;
+  box-shadow: inset 3px 0 0 rgb(26, 159, 255) !important;
+}
+
+#QuickAccess-Menu ._1S76C3gQf4oOTbLdTMVH0m.gpfocus {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 12px !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 14px 40px -8px rgba(255, 255, 255, 0.28) !important;
+}
+
+#QuickAccess-Menu ._1S76C3gQf4oOTbLdTMVH0m.gpfocus svg {
+  color: rgb(255, 255, 255) !important;
+  fill: rgb(255, 255, 255) !important;
+}
+
+#QuickAccess-Menu .DialogButton {
+  border-radius: 12px !important;
+}
+
+#QuickAccess-Menu .DialogButton.gpfocus {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgb(255, 255, 255) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 14px 40px -8px rgba(255, 255, 255, 0.28) !important;
+}
