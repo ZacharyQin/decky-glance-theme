@@ -1,9 +1,9 @@
 {
   "name": "Glance",
-  "author": "local",
+  "author": "ZacharyQin",
   "version": "v1.0",
   "manifest_version": 8,
-  "target": "Other",
+  "target": "System-Wide",
   "description": "Glance visual language for Steam Game Mode surfaces.",
   "inject": {
     "shared.css": [
