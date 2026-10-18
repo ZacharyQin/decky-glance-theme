@@ -28,6 +28,13 @@
 | Volume OSD | `volume.css` | SP |
 | Dialogs, settings rows, recording cards, confirm prompts | `dialog.css` | SP |
 
+<p align="center">
+  <img src="./docs/images/steam-menu.png" width="240" alt="Steam button menu with the Glance glass panel.">
+  <br>
+  <sub>Steam button menu.</sub>
+</p>
+
+
 ## Install
 
 Install [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) and [CSS Loader](https://github.com/suchmememanyskill/SDH-CssLoader). Copy this repository into the themes directory so the folder that contains `theme.json` is named `Glance`:
@@ -56,15 +63,15 @@ CSS Loader shows these controls on the theme. Each default is the current look. 
 
 | Option | Default | Applies to |
 | --- | --- | --- |
-| 面板不透明度 | 72% | QAM, Steam menu, context menu, dialogs |
-| 面板模糊 | 14px | same, `关` removes the blur |
-| 面板圆角 | 16px | same |
-| 玻璃底色 | `#0E141B` | same; opacity stays on the slider |
-| 音量条不透明度 | 40% | volume OSD only |
-| 音量条模糊 | 6px | volume OSD only |
-| 顶栏不透明度 | 38% | home header only |
-| 设置蒙层不透明度 | 50% | settings scrim only |
-| 设置蒙层模糊 | 8px | settings scrim only |
+| Panel opacity | 72% | QAM, Steam menu, context menu, dialogs |
+| Panel blur | 14px | same, `Off` removes the blur |
+| Panel corner radius | 16px | same |
+| Glass color | `#0E141B` | same; opacity stays on the slider |
+| Volume opacity | 40% | volume OSD only |
+| Volume blur | 6px | volume OSD only |
+| Header opacity | 38% | home header only |
+| Settings scrim opacity | 50% | settings scrim only |
+| Settings scrim blur | 8px | settings scrim only |
 
 The volume OSD, header, and settings scrim do not share the panel sliders. They are all drawn in the Game Mode window, so one variable would move them together.
 

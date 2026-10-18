@@ -28,6 +28,13 @@
 | 音量条 | `volume.css` | 大屏 |
 | 弹窗、设置灰底行、游戏录制卡、确认框 | `dialog.css` | 大屏 |
 
+<p align="center">
+  <img src="./docs/images/steam-menu.png" width="240" alt="套用 Glance 玻璃的 Steam 键菜单。">
+  <br>
+  <sub>Steam 键菜单。</sub>
+</p>
+
+
 ## 安装
 
 先装 [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) 和 [CSS Loader](https://github.com/suchmememanyskill/SDH-CssLoader)。把本仓库放到主题目录，包含 `theme.json` 的文件夹名要是 `Glance`：
@@ -57,7 +64,7 @@ CSS Loader 的主题页里有这些项。默认档就是现在的样子。CSS Lo
 | 配置 | 默认 | 作用范围 |
 | --- | --- | --- |
 | 面板不透明度 | 72% | QAM、Steam 菜单、右键菜单、弹窗 |
-| 面板模糊 | 14px | 同上，`关` 会去掉模糊 |
+| 面板模糊 | 14px | 同上，`Off` 会去掉模糊 |
 | 面板圆角 | 16px | 同上 |
 | 玻璃底色 | `#0E141B` | 同上；透明度仍走滑条 |
 | 音量条不透明度 | 40% | 仅音量条 |
